@@ -127,23 +127,27 @@ For the 1st trail, I ran 10 epochs and chose batch size as 128, everytime I shuf
 The performance was not good (validation accuracy of the final epoch is 89.5%).
 
 Here's training result of 1st trail :
+
 ![alt text][image11]
 
 Then I tried to adjust initial weights with variance from 0.1 to 0.08. The 2nd trial works better (validation accuracy of the final epoch is 91.9%), but it was not good enough.
 
 Here's training result of 2nd trail :
+
 ![alt text][image12]
 
 Then I tried to adjust epochs and batch size. The batch size is chose as 64 . For smaller batch size, I increased epochs to 22.
 The 3rd trial made a good progress for validation accuracy greater than 93%. (validation accuracy of the final epoch is 93.9%). 
 
 Here's training result of 3rd trail :
+
 ![alt text][image13]
 
 Afterwards, I tried to add one dropout layer before the last 2 fully connected layer, respectively. 
 The 4th trial got a great improvement. (validation accuracy of the final epoch is 96.7%)
 
 Here's training result of 4th trail :
+
 ![alt text][image14]
 
 The dropout layer plays an important role to help train neural network not relying on certain subset of neurons by dropping out 50% neurons randomly in training process. 
