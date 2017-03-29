@@ -9,7 +9,6 @@ The goals / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report
 
-
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.jpg "Visualization"
@@ -29,15 +28,6 @@ The goals / steps of this project are the following:
 [image14]: ./result_image/trail4.png "training result trial4"
 [image15]: ./result_image/new_test_image.png "new test image"
 [image16]: ./result_image/top5.png "top 5"
-
-
-## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
-
----
-### Writeup / README
-
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
 ### Data Set Summary & Exploration
 
@@ -185,6 +175,6 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-Here's the firs five image with top 5 probability of calssification :
+Here's the first five image with top 5 probability of calssification :
 
 ![alt text][image16]
