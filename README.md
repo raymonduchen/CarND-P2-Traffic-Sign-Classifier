@@ -1,19 +1,24 @@
 # CarND_Traffic_Sign_Classifier_P2
 
-![alt text][image9]
-
 ## Description
 
 ***This my project result of Udacity self-driving car nanodegree (CarND) 2nd project. It required implementing a deep neural network (DNN) traffic sign classifier based on TensorFlow. I used LeNet-5 as base architecture and traffic sign image dataset is obtained from German Traffic Sign Dataset***
 
-* Udacity self-driving car nanodegree (CarND)
-https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013
+* Udacity self-driving car nanodegree (CarND) :
+
+  https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013
 
 * LeNet-5 is convolutional network designed for handwritten and machine-printed character recognition :
-http://yann.lecun.com/exdb/lenet/
+
+  http://yann.lecun.com/exdb/lenet/
 
 * German Traffic Sign Dataset
-http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset
+
+  http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset
+
+[image1]: ./result_image/1.png "4 by 4 image matrix from training images"
+![alt text][image1]
+
 
 ## Dataset of this project
 
@@ -35,13 +40,13 @@ http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset
 | RELU					|												|
 | Max pooling	      	| 2x2 stride, valid padding, outputs 5x5x16 				|
 | Flatten	      	| outputs 400 				|
-| Fully connected		| output 120        									|
+| Fully connected		| outputs 120        									|
 | RELU					|												|
 | Dropout					|												|
-| Fully connected		| output 84        									|
+| Fully connected		| outputs 84        									|
 | RELU					|												|
 | Dropout					|												|
-| Fully connected		| output 43        									|
+| Fully connected		| outputs 43        									|
 
 
 ## Performance 
