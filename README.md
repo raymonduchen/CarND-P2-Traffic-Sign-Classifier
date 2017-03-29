@@ -169,7 +169,7 @@ For the first 5 image from previous 16 images, here are the results of the predi
 | Speed limit (100km/h) | Speed limit (100km/h) |
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. 
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. The accuracy is higher than test set accuracy and it might result from too few test samples chose and ocassionally chose those easier cases.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
