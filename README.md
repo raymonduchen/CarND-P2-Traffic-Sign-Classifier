@@ -1,8 +1,8 @@
-# CarND_Traffic_Sign_Classifier_P2
+# CarND-P2 Traffic Sign Classifier
 
 ## Description
 
-***This my project result of Udacity self-driving car nanodegree (CarND) 2nd project. It required implementing a deep neural network (DNN) traffic sign classifier based on TensorFlow. I used LeNet-5 as base architecture and traffic sign image dataset is obtained from German Traffic Sign Dataset***
+**This my 2nd project result of Udacity self-driving car nanodegree (CarND). It required implementing a deep neural network (DNN) traffic sign classifier based on TensorFlow. I used LeNet-5 as base architecture and traffic sign image dataset is obtained from German Traffic Sign Dataset**
 
 * Udacity self-driving car nanodegree (CarND) :
 
@@ -25,7 +25,7 @@
 * The size of training set is 34799 (data is stored in train.p)
 * The size of validation set is 4410 (data is stored in valid.p)
 * The size of test set is 12630 (data is stored in test.p)
-* The shape of a traffic sign image is (32, 32, 3)
+* The shape of a traffic sign image is (32, 32, 3), i.e. 32 x 32 RGB pixel 
 * The number of unique classes/labels in the data set is 43
 
 ## DNN model of this project 
