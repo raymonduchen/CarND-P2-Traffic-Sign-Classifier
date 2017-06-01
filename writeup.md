@@ -1,5 +1,4 @@
-# CarND_Traffic_Sign_Classifier_P2
-**Udacity self-driving car nanodegree project 2 : Traffic Sign Classifier**
+# Traffic Sign Classifier
 
 The goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)
