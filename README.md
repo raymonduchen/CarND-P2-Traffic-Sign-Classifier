@@ -2,7 +2,7 @@
 
 ## Description
 
-**This my 2nd project result of Udacity self-driving car nanodegree (CarND). It required implementing a deep neural network (DNN) traffic sign classifier based on TensorFlow. I used LeNet-5 as base architecture and traffic sign image dataset is obtained from German Traffic Sign Dataset**
+**This my 2nd project result of Udacity self-driving car nanodegree (CarND) term 1. It required implementing a deep neural network (DNN) traffic sign classifier based on TensorFlow. I used LeNet-5 as base architecture and traffic sign image dataset is obtained from German Traffic Sign Dataset**
 
 * Udacity self-driving car nanodegree (CarND) :
 
